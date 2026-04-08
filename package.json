@@ -1,0 +1,24 @@
+{
+  "name": "asset-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "sync": "npm run build && npx cap sync android",
+    "open": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/barcode-scanner": "latest-7",
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/haptics": "^7.0.4",
+    "@capacitor/network": "^7.0.4",
+    "android": "^0.0.8"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.0.0"
+  }
+}
